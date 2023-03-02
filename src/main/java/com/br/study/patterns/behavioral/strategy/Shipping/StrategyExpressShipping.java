@@ -1,4 +1,4 @@
-package com.br.study.patterns.behavioral.strategy;
+package com.br.study.patterns.behavioral.strategy.Shipping;
 
 public class StrategyExpressShipping implements Shipping {
 

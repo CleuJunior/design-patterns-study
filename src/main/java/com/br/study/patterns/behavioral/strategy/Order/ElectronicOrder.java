@@ -1,4 +1,6 @@
-package com.br.study.patterns.behavioral.strategy;
+package com.br.study.patterns.behavioral.strategy.Order;
+
+import com.br.study.patterns.behavioral.strategy.Shipping.Shipping;
 
 public class ElectronicOrder extends Order{
 

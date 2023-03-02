@@ -1,5 +1,11 @@
 package com.br.study.patterns.behavioral.strategy;
 
+import com.br.study.patterns.behavioral.strategy.Order.ElectronicOrder;
+import com.br.study.patterns.behavioral.strategy.Order.FurnitureOrder;
+import com.br.study.patterns.behavioral.strategy.Order.Order;
+import com.br.study.patterns.behavioral.strategy.Shipping.Shipping;
+import com.br.study.patterns.behavioral.strategy.Shipping.StrategyCommonShipping;
+import com.br.study.patterns.behavioral.strategy.Shipping.StrategyExpressShipping;
 import org.junit.Test;
 
 import java.util.List;
@@ -18,7 +24,7 @@ public class AppTest {
         Double actualCommonShipping = order.calculateShipping();
 
         assertEquals(expectedCommonShipping, actualCommonShipping);
-        assertTrue(order.shippingType.toString().contains("Common"));
+        assertTrue(order.getShippingType().toString().contains("Common"));
 
         shipping = new StrategyExpressShipping();
         order.setShippingType(shipping);
@@ -27,7 +33,7 @@ public class AppTest {
         Double actualExpressShipping = order.calculateShipping();
 
         assertEquals(expectedExpressShipping, actualExpressShipping);
-        assertTrue(order.shippingType.toString().contains("Express"));
+        assertTrue(order.getShippingType().toString().contains("Express"));
     }
 
     @Test
@@ -39,7 +45,7 @@ public class AppTest {
         Double actualCommonShipping = order.calculateShipping();
 
         assertEquals(expectedCommonShipping, actualCommonShipping);
-        assertTrue(order.shippingType.toString().contains("Common"));
+        assertTrue(order.getShippingType().toString().contains("Common"));
 
         shipping = new StrategyExpressShipping();
         order.setShippingType(shipping);
@@ -48,7 +54,7 @@ public class AppTest {
         Double actualExpressShipping = order.calculateShipping();
 
         assertEquals(expectedExpressShipping, actualExpressShipping);
-        assertTrue(order.shippingType.toString().contains("Express"));
+        assertTrue(order.getShippingType().toString().contains("Express"));
     }
 
     @Test
