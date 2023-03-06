@@ -43,7 +43,7 @@ public class Supplier implements Observer {
     }
 
     @Override
-    public String update() {
-        return Email.sendEmail(this);
+    public void update(String msg) {
+        Email.sendEmail(this, msg);
     }
 }

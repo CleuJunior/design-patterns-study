@@ -2,7 +2,7 @@ package com.br.study.patterns.behavioral.observer.observer;
 
 public interface Observer {
 
-    String update();
+    void update(String msg);
     String getName();
     String getEmail();
 }

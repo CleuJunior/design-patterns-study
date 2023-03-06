@@ -6,8 +6,8 @@ public class Email {
     private Email() {
     }
 
-    public static String sendEmail(Observer observer) {
-        return "Email enviado para " + observer.getName() + " - " + observer.getEmail() + "\n" +
-                "Mensagem: " + observer.update() + "\n";
+    public static void sendEmail(Observer observer, String msg) {
+        System.out.println("Email enviado para " + observer.getName() + " - " + observer.getEmail() + "\n" + "Mensagem: "
+                + msg + "\n");
     }
 }

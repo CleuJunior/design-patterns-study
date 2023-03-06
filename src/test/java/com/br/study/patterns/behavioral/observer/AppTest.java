@@ -32,19 +32,13 @@ public class AppTest {
     }
 
     @Test
-    public void allObserverShouldReceiveSameMessage() {
-        System.out.println(client.update());
+    public void testObservers() {
+        newsletter.addMessage("Primeira mensagem");
+        newsletter.removeObserver(client2);
+        System.out.println("##############\n");
+        newsletter.addMessage("Observador 2 saiu da lista");
+        System.out.println("##############\n");
+        newsletter.removeObserver(partner);
+        newsletter.addMessage("Parceiro saiu");
     }
-
-    @Test
-    public void testCalculateShippingCostWithShippingFurnitureOrder() {
-
-    }
-
-    @Test
-    public void listOfValuesWithShippingFurnitureOrder() {
-
-    }
-
-
 }

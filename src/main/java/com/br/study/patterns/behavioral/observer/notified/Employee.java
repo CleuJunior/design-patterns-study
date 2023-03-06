@@ -43,7 +43,7 @@ public class Employee implements Observer {
     }
 
     @Override
-    public String update(String message) {
-        return Email.sendEmail(this, message);
+    public void update(String msg) {
+        Email.sendEmail(this, msg);
     }
 }
