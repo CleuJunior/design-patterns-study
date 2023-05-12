@@ -17,15 +17,12 @@ Design Patterns são soluções comuns para problemas recorrentes que ocorrem no
 Este repositório está organizado em pastas, onde cada pasta contém exemplos e exercícios relacionados a um padrão de design específico. Cada pasta contém um README.md explicando o padrão de design e fornecendo exemplos de código.
 
 
-
-
-
 ## Lista de Padrões de Design:
 
 ### Padrões de criação (Creational)
 
 - Factory Method
-- Singleton
+- [Singleton](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/creational/singleton)
 - Builder
 - Prototype
 
@@ -57,7 +54,6 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 
 - Design Patterns: Elements of Reusable Object-Oriented Software, Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides
 - Head First Design Patterns, Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra
-
 
 ## Licença
 
