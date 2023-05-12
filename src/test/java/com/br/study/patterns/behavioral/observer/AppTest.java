@@ -5,7 +5,7 @@ import com.br.study.patterns.behavioral.observer.notified.Employee;
 import com.br.study.patterns.behavioral.observer.notified.Partner;
 import com.br.study.patterns.behavioral.observer.notified.Supplier;
 import com.br.study.patterns.behavioral.observer.observer.Observer;
-import com.br.study.patterns.behavioral.service.Newsletter;
+import com.br.study.patterns.behavioral.observer.service.Newsletter;
 import org.junit.Before;
 import org.junit.Test;
 

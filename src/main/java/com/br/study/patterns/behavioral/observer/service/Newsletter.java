@@ -1,4 +1,4 @@
-package com.br.study.patterns.behavioral.service;
+package com.br.study.patterns.behavioral.observer.service;
 
 import com.br.study.patterns.behavioral.observer.observer.Observer;
 import com.br.study.patterns.behavioral.observer.subject.Subject;
