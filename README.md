@@ -38,7 +38,7 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 
 ### Padrões comportamentais (Behavioral)
 
-- Chain of Responsibility
+- [Chain of Responsibility](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/chainofresponsibility)
 - Command
 - Interpreter
 - Iterator
