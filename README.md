@@ -26,12 +26,12 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 - [Builder](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/creational/builder)
 - Prototype
 
-### Padrões de criação (Creational)
+### Padrões de criação (Structural)
 
 - Adapter
 - Bridge
 - Composite
-- Decorator
+- [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
 - Facade
 - Flyweight
 - Proxy
