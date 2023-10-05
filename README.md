@@ -45,7 +45,7 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 - Mediator
 - Memento
 - [Observer](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/observer)
-- [State](src/main/java/com/br/study/patterns/behavioral/state/states)
+- [State](src/main/java/com/br/study/patterns/behavioral/state)
 - [Strategy](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/strategy)
 - [Template Method](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/templatemethod)
 - Visitor
