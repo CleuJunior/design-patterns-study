@@ -32,7 +32,7 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 - [Bridge](src/main/java/com/br/study/patterns/structural/bridge)
 - Composite
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
-- Facade
+- [Facade](src/main/java/com/br/study/patterns/structural/facade)
 - Flyweight
 - Proxy
 
