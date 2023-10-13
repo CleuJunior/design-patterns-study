@@ -24,7 +24,7 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 - Factory Method
 - [Singleton](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/creational/singleton)
 - [Builder](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/creational/builder)
-- Prototype
+- [Prototype](src/main/java/com/br/study/patterns/creational/prototype)
 
 ### Padrões de criação (Structural)
 
