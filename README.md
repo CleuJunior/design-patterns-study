@@ -34,7 +34,7 @@ Este repositório está organizado em pastas, onde cada pasta contém exemplos e
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
 - [Facade](src/main/java/com/br/study/patterns/structural/facade)
 - Flyweight
-- Proxy
+- [Proxy](src/main/java/com/br/study/patterns/structural/proxy)
 
 ### Padrões comportamentais (Behavioral)
 
