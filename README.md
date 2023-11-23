@@ -45,7 +45,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [State](src/main/java/com/br/study/patterns/behavioral/state)
 - [Strategy](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/strategy)
 - [Template Method](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/templatemethod)
-- Visitor
+- [Visitor](src/main/java/com/br/study/patterns/behavioral/visitor)
 
 ## Referência
 
