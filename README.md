@@ -21,7 +21,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [Abstract Factory](src/main/java/com/br/study/patterns/creational/abstractfactory)
 - [Builder](src/main/java/com/br/study/patterns/creational/builder)
 - [Prototype](src/main/java/com/br/study/patterns/creational/prototype)
-- [Singleton](src/main/java/com/br/study/patterns/creational/singleton)
+- [Singleton](singleton)
 
 ### Padrões de criação (Structural)
 
