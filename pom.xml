@@ -4,6 +4,9 @@
   <groupId>com.br.study.patterns</groupId>
   <artifactId>patterns</artifactId>
   <packaging>jar</packaging>
+  <modules>
+    <module>singleton</module>
+  </modules>
   <build>
     <plugins>
       <plugin>
