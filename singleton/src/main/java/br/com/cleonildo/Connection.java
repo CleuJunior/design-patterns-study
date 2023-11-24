@@ -1,4 +1,4 @@
-package com.br.study.patterns.creational.singleton;
+package br.com.cleonildo;
 
 public interface Connection {
 

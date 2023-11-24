@@ -1,4 +1,4 @@
-package com.br.study.patterns.creational.singleton;
+package br.com.cleonildo;
 
 public class Mysql implements Connection {
     private static Mysql instance = null;
@@ -46,5 +46,14 @@ public class Mysql implements Connection {
         }
 
         return instance;
+    }
+
+    @Override
+    public String toString() {
+        return "Mysql{" +
+                "host='" + host + '\'' +
+                ", user='" + user + '\'' +
+                ", password='" + password + '\'' +
+                '}';
     }
 }
