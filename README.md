@@ -40,7 +40,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - Interpreter
 - Iterator
 - [Mediator](src/main/java/com/br/study/patterns/creational/mediator)
-- Memento
+- [Memento](memento)
 - [Observer](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/observer)
 - [State](src/main/java/com/br/study/patterns/behavioral/state)
 - [Strategy](strategy)
