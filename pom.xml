@@ -11,6 +11,7 @@
     <module>memento</module>
     <module>adapter</module>
     <module>state</module>
+    <module>builder</module>
   </modules>
   <build>
     <plugins>
