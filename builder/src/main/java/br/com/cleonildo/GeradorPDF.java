@@ -1,25 +1,28 @@
-package com.br.study.patterns.creational.builder;
+package br.com.cleonildo;
 
-import java.util.StringJoiner;
-
-public class PDFGenerator {
+public class GeradorPDF {
     private String pageOrientation = "portrait";
     private String unit = "mm";
     private int pageSizeX = 210;
     private int pageSizeY = 297;
     private int marginTop = 30;
-    private int marginBottom = 30;
     private int marginRight = 20;
+    private int marginBottom = 30;
     private int marginLeft = 20;
     private boolean hasHeader = false;
     private int headerHeight = 0;
     private boolean hasFooter = false;
     private int footerHeight = 0;
-    private String pageColor = "#FFFFFF";
-    private String encoder = "UTF-8";
+    private String pageColor = "#ffffff";
+    private String encode = "UTF-8";
+
+    // ### Aqui ficava o construtor - Foi Removido ###
+
+    // Nada muda nos demais métodos Getters, Setters e toString.
+
 
     public String getPageOrientation() {
-        return this.pageOrientation;
+        return pageOrientation;
     }
 
     public void setPageOrientation(String pageOrientation) {
@@ -27,7 +30,7 @@ public class PDFGenerator {
     }
 
     public String getUnit() {
-        return this.unit;
+        return unit;
     }
 
     public void setUnit(String unit) {
@@ -35,7 +38,7 @@ public class PDFGenerator {
     }
 
     public int getPageSizeX() {
-        return this.pageSizeX;
+        return pageSizeX;
     }
 
     public void setPageSizeX(int pageSizeX) {
@@ -43,7 +46,7 @@ public class PDFGenerator {
     }
 
     public int getPageSizeY() {
-        return this.pageSizeY;
+        return pageSizeY;
     }
 
     public void setPageSizeY(int pageSizeY) {
@@ -51,31 +54,31 @@ public class PDFGenerator {
     }
 
     public int getMarginTop() {
-        return this.marginTop;
+        return marginTop;
     }
 
     public void setMarginTop(int marginTop) {
         this.marginTop = marginTop;
     }
 
-    public int getMarginBottom() {
-        return this.marginBottom;
-    }
-
-    public void setMarginBottom(int marginBottom) {
-        this.marginBottom = marginBottom;
-    }
-
     public int getMarginRight() {
-        return this.marginRight;
+        return marginRight;
     }
 
     public void setMarginRight(int marginRight) {
         this.marginRight = marginRight;
     }
 
+    public int getMarginBottom() {
+        return marginBottom;
+    }
+
+    public void setMarginBottom(int marginBottom) {
+        this.marginBottom = marginBottom;
+    }
+
     public int getMarginLeft() {
-        return this.marginLeft;
+        return marginLeft;
     }
 
     public void setMarginLeft(int marginLeft) {
@@ -83,7 +86,7 @@ public class PDFGenerator {
     }
 
     public boolean isHasHeader() {
-        return this.hasHeader;
+        return hasHeader;
     }
 
     public void setHasHeader(boolean hasHeader) {
@@ -91,7 +94,7 @@ public class PDFGenerator {
     }
 
     public int getHeaderHeight() {
-        return this.headerHeight;
+        return headerHeight;
     }
 
     public void setHeaderHeight(int headerHeight) {
@@ -99,7 +102,7 @@ public class PDFGenerator {
     }
 
     public boolean isHasFooter() {
-        return this.hasFooter;
+        return hasFooter;
     }
 
     public void setHasFooter(boolean hasFooter) {
@@ -107,7 +110,7 @@ public class PDFGenerator {
     }
 
     public int getFooterHeight() {
-        return this.footerHeight;
+        return footerHeight;
     }
 
     public void setFooterHeight(int footerHeight) {
@@ -115,38 +118,38 @@ public class PDFGenerator {
     }
 
     public String getPageColor() {
-        return this.pageColor;
+        return pageColor;
     }
 
     public void setPageColor(String pageColor) {
         this.pageColor = pageColor;
     }
 
-    public String getEncoder() {
-        return this.encoder;
+    public String getEncode() {
+        return encode;
     }
 
-    public void setEncoder(String encoder) {
-        this.encoder = encoder;
+    public void setEncode(String encode) {
+        this.encode = encode;
     }
 
     @Override
     public String toString() {
-        return new StringJoiner(", ", PDFGenerator.class.getSimpleName() + "[", "]")
-                .add("pageOrientation='" + this.pageOrientation + "'")
-                .add("unit='" + this.unit + "'")
-                .add("pageSizeX=" + this.pageSizeX)
-                .add("pageSizeY=" + this.pageSizeY)
-                .add("marginTop=" + this.marginTop)
-                .add("marginBottom=" + this.marginBottom)
-                .add("marginRight=" + this.marginRight)
-                .add("marginLeft=" + this.marginLeft)
-                .add("hasHeader=" + this.hasHeader)
-                .add("headerHeight=" + this.headerHeight)
-                .add("hasFooter=" + this.hasFooter)
-                .add("footerHeight=" + this.footerHeight)
-                .add("pageColor='" + this.pageColor + "'")
-                .add("encoder='" + this.encoder + "'")
-                .toString();
+        return "GeradorPDF{" +
+                "pageOrientation='" + pageOrientation + '\'' +
+                ", unit='" + unit + '\'' +
+                ", pageSizeX=" + pageSizeX +
+                ", pageSizeY=" + pageSizeY +
+                ", marginTop=" + marginTop +
+                ", marginRight=" + marginRight +
+                ", marginBottom=" + marginBottom +
+                ", marginLeft=" + marginLeft +
+                ", hasHeader=" + hasHeader +
+                ", headerHeight=" + headerHeight +
+                ", hasFooter=" + hasFooter +
+                ", footerHeight=" + footerHeight +
+                ", pageColor='" + pageColor + '\'' +
+                ", encode='" + encode + '\'' +
+                '}';
     }
 }
