@@ -9,6 +9,7 @@
     <module>strategy</module>
     <module>templatemethod</module>
     <module>memento</module>
+    <module>adapter</module>
   </modules>
   <build>
     <plugins>

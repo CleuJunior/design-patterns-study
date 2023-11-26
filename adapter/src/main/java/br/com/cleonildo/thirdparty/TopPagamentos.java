@@ -1,4 +1,4 @@
-package com.br.study.patterns.structural.adpter.thirdparty;
+package br.com.cleonildo.thirdparty;
 
 import java.math.BigDecimal;
 
@@ -21,7 +21,7 @@ public class TopPagamentos {
         this.cvv = cvv;
     }
 
-    public boolean doPayment() {
+    public boolean realizarPagamento() {
         System.out.println("Payment by TopPagamentos");
         return true;
     }

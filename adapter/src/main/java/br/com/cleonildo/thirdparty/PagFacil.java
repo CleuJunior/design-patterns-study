@@ -1,4 +1,4 @@
-package com.br.study.patterns.structural.adpter.thirdparty;
+package br.com.cleonildo.thirdparty;
 
 import java.math.BigDecimal;
 
@@ -8,27 +8,27 @@ public class PagFacil {
     private String cardNumber;
     private String cvv;
 
-    public void setValue(BigDecimal value) {
+    public void setValor(BigDecimal value) {
         this.value = value;
     }
 
-    public void setInstallment(int installment) {
+    public void setParcelas(int installment) {
         this.installment = installment;
     }
 
-    public void setCardNumber(String cardNumber) {
-        this.cardNumber = cardNumber;
+    public void setNumeroCartao(String numeroCartao) {
+        this.cardNumber = numeroCartao;
     }
 
     public void setCvv(String cvv) {
         this.cvv = cvv;
     }
 
-    public boolean validade() {
+    public boolean validarCartao() {
         return !this.cardNumber.isBlank() && !this.cvv.isBlank() && this.cvv.length() == 3;
     }
 
-    public boolean doPayment() {
+    public boolean realizarPagamento() {
         System.out.println("Payment by PagFacil");
         return true;
     }
