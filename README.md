@@ -30,7 +30,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [Composite](src/main/java/com/br/study/patterns/structural/composite)
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
 - [Facade](src/main/java/com/br/study/patterns/structural/facade)
-- [Flyweight](src/main/java/com/br/study/patterns/creational/flyweight)
+- [Flyweight](flyweight)
 - [Proxy](src/main/java/com/br/study/patterns/structural/proxy)
 
 ### Padrões comportamentais (Behavioral)

@@ -1,9 +1,9 @@
-package com.br.study.patterns.creational.flyweight;
+package br.com.cleonildo;
 
 import java.util.Map;
 import java.util.Random;
 
-public class Main {
+public class FlyweightMain {
     public static void main(String[] args) {
         var plantacao = new Plantacao();
 

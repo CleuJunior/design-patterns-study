@@ -12,6 +12,7 @@
     <module>adapter</module>
     <module>state</module>
     <module>builder</module>
+    <module>flyweight</module>
   </modules>
   <build>
     <plugins>

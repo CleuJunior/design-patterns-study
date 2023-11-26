@@ -1,4 +1,4 @@
-package com.br.study.patterns.creational.flyweight;
+package br.com.cleonildo;
 
 import java.util.ArrayList;
 import java.util.List;
