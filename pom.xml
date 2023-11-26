@@ -10,6 +10,7 @@
     <module>templatemethod</module>
     <module>memento</module>
     <module>adapter</module>
+    <module>state</module>
   </modules>
   <build>
     <plugins>
