@@ -25,7 +25,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 
 ### Padrões de criação (Structural)
 
-- [Adapter](src/main/java/com/br/study/patterns/structural/adpter)
+- [Adapter](adapter)
 - [Bridge](src/main/java/com/br/study/patterns/structural/bridge)
 - [Composite](src/main/java/com/br/study/patterns/structural/composite)
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
