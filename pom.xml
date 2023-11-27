@@ -13,6 +13,7 @@
     <module>state</module>
     <module>builder</module>
     <module>flyweight</module>
+    <module>iterator</module>
   </modules>
   <build>
     <plugins>
