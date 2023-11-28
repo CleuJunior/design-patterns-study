@@ -36,7 +36,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 ### Padrões comportamentais (Behavioral)
 
 - [Chain of Responsibility](https://github.com/CleuJunior/design-patterns-study/tree/main/src/main/java/com/br/study/patterns/behavioral/chainofresponsibility)
-- Command
+- [Command](command)
 - Interpreter
 - [Iterator](iterator)
 - [Mediator](src/main/java/com/br/study/patterns/creational/mediator)
