@@ -1,4 +1,4 @@
-package com.br.study.patterns.behavioral.visitor;
+package br.com.cleonildo;
 
 import java.math.BigDecimal;
 import java.util.ArrayList;

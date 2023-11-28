@@ -20,6 +20,7 @@
     <module>strategy</module>
     <module>state</module>
     <module>templatemethod</module>
+    <module>visitor</module>
   </modules>
   <build>
     <plugins>

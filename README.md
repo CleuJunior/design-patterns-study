@@ -45,7 +45,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [State](state)
 - [Strategy](strategy)
 - [Template Method](templatemethod)
-- [Visitor](src/main/java/com/br/study/patterns/behavioral/visitor)
+- [Visitor](visitor)
 
 ## Referência
 
