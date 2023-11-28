@@ -1,19 +1,19 @@
-package com.br.study.patterns.creational.mediator;
+package br.com.cleonildo;
 
 public class Main {
 
     public static void main(String[] args) {
-        var chatBot1 = new ChatBot();
-        var salaDeChat1 = new SalaDeChatMediator(chatBot1, "Sala de chat 1");
+        ChatBot chatBot1 = new ChatBot();
+        SalaDeChatMediator salaDeChat1 = new SalaDeChatMediator(chatBot1, "Sala de chat 1");
 
-        var chatBot2 = new ChatBot();
-        var salaDeChat2 = new SalaDeChatMediator(chatBot2, "Sala de chat 2");
+        ChatBot chatBot2 = new ChatBot();
+        SalaDeChatMediator salaDeChat2 = new SalaDeChatMediator(chatBot2, "Sala de chat 2");
 
-        var joao = new Humano("João");
-        var maria = new Humano("Maria");
-        var paulo = new Humano("Paulo");
-        var lucia = new Humano("Lucia");
-        var pedro = new Humano("Pedro");
+        Humano joao = new Humano("João");
+        Humano maria = new Humano("Maria");
+        Humano paulo = new Humano("Paulo");
+        Humano lucia = new Humano("Lucia");
+        Humano pedro = new Humano("Pedro");
 
         joao.setMediator(salaDeChat1);
         maria.setMediator(salaDeChat1);

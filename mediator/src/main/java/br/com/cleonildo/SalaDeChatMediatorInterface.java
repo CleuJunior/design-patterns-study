@@ -1,4 +1,4 @@
-package com.br.study.patterns.creational.mediator;
+package br.com.cleonildo;
 
 public interface SalaDeChatMediatorInterface {
 
