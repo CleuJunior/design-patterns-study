@@ -27,7 +27,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 
 - [Adapter](adapter)
 - [Bridge](src/main/java/com/br/study/patterns/structural/bridge)
-- [Composite](src/main/java/com/br/study/patterns/structural/composite)
+- [Composite](composite)
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
 - [Facade](src/main/java/com/br/study/patterns/structural/facade)
 - [Flyweight](flyweight)

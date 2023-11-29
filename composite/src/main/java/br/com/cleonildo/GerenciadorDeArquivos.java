@@ -1,4 +1,4 @@
-package com.br.study.patterns.structural.composite;
+package br.com.cleonildo;
 
 public class GerenciadorDeArquivos {
     private final Component raiz;

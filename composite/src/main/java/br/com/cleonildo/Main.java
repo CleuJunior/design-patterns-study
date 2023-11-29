@@ -1,17 +1,17 @@
-package com.br.study.patterns.structural.composite;
+package br.com.cleonildo;
 
 import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
-        var raiz = new Pasta("Raiz", "/");
-        var pasta1 = new Pasta("pasta 1", "pasta1/");
-        var pasta2 = new Pasta("pasta 2", "pasta2/");
-        var pasta2Ponto1 = new Pasta("pasta 2.1", "pasta2-1/");
-        var pasta3 = new Pasta("pasta 3", "pasta3/");
+        Pasta raiz = new Pasta("Raiz", "/");
+        Pasta pasta1 = new Pasta("pasta 1", "pasta1/");
+        Pasta pasta2 = new Pasta("pasta 2", "pasta2/");
+        Pasta pasta2Ponto1 = new Pasta("pasta 2.1", "pasta2-1/");
+        Pasta pasta3 = new Pasta("pasta 3", "pasta3/");
 
-        var arquivos = List.of(
+        List<Arquivo> arquivos = List.of(
                new Arquivo("Arquivo 1", "/arquivo1"),
                new Arquivo("Arquivo 2", "/arquivo2"),
                new Arquivo("Arquivo 3", "/arquivo3"),
@@ -35,7 +35,7 @@ public class Main {
         raiz.adicionar(pasta2Ponto1);
         raiz.adicionar(pasta3);
 
-        var gerenciador = new GerenciadorDeArquivos(raiz);
+        GerenciadorDeArquivos gerenciador = new GerenciadorDeArquivos(raiz);
 
         gerenciador.exibirTodos();
     }
