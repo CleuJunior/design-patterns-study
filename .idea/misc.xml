@@ -16,6 +16,9 @@
         <option value="$PROJECT_DIR$/mediator/pom.xml" />
         <option value="$PROJECT_DIR$/composite/pom.xml" />
         <option value="$PROJECT_DIR$/abstractfactory/pom.xml" />
+        <option value="$PROJECT_DIR$/facede/pom.xml" />
+        <option value="$PROJECT_DIR$/prototype/pom.xml" />
+        <option value="$PROJECT_DIR$/bridge/pom.xml" />
       </list>
     </option>
   </component>
