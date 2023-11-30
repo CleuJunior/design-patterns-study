@@ -20,7 +20,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [Factory Method](src/main/java/com/br/study/patterns/creational/factorymethod)
 - [Abstract Factory](abstractfactory)
 - [Builder](builder)
-- [Prototype](src/main/java/com/br/study/patterns/creational/prototype)
+- [Prototype](prototype)
 - [Singleton](singleton)
 
 ### Padrões de criação (Structural)
@@ -29,7 +29,7 @@ design específico. Cada pasta contém um README.md explicando o padrão de desi
 - [Bridge](src/main/java/com/br/study/patterns/structural/bridge)
 - [Composite](composite)
 - [Decorator](src/main/java/com/br/study/patterns/structural/decorator)
-- [Facade](src/main/java/com/br/study/patterns/structural/facade)
+- [Facade](facade)
 - [Flyweight](flyweight)
 - [Proxy](proxy)
 

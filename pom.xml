@@ -10,12 +10,15 @@
     <module>builder</module>
     <module>chainofresponsibility</module>
     <module>command</module>
+    <module>composite</module>
+    <module>facade</module>
     <module>factorymethod</module>
     <module>flyweight</module>
     <module>interpreter</module>
     <module>iterator</module>
     <module>memento</module>
     <module>observer</module>
+    <module>prototype</module>
     <module>proxy</module>
     <module>singleton</module>
     <module>strategy</module>
