@@ -4,4 +4,4 @@ O padrão Abstract Factory fornece uma interface para criar famílias de objetos
 especificar suas classes
 concretas.
 
-### [Leitura Completa](src/main/java/com/br/study/patterns/creational/abstractfactory/doc/abstract_factory.pdf)
+### [Leitura Completa](doc/abstract_factory.pdf)

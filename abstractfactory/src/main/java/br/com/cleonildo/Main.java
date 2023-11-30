@@ -1,7 +1,7 @@
-package com.br.study.patterns.creational.abstractfactory;
+package br.com.cleonildo;
 
-import com.br.study.patterns.creational.abstractfactory.bancodobrasil.BBCalculosFactory;
-import com.br.study.patterns.creational.abstractfactory.caixa.CaixaCalculosFactory;
+import br.com.cleonildo.bancodobrasil.BBCalculosFactory;
+import br.com.cleonildo.caixa.CaixaCalculosFactory;
 
 import java.math.BigDecimal;
 
@@ -13,6 +13,8 @@ public class Main {
 
         CalculosFactory factory = new CaixaCalculosFactory();
         banco.gerarBoleto(BigDecimal.valueOf(100), factory);
+
+        System.out.println();
 
         System.out.println("##########Banco do Brasil##########");
         factory = new BBCalculosFactory();

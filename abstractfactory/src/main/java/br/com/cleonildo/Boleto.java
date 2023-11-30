@@ -1,9 +1,9 @@
-package com.br.study.patterns.creational.abstractfactory;
+package br.com.cleonildo;
 
 import java.math.BigDecimal;
 
 public class Boleto {
-    private BigDecimal valor;
+    private final BigDecimal valor;
     protected Juros juros;
     protected Desconto desconto;
     protected Multa multa;

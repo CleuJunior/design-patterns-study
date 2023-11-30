@@ -1,6 +1,7 @@
-package com.br.study.patterns.creational.abstractfactory.bancodobrasil;
+package br.com.cleonildo.bancodobrasil;
 
-import com.br.study.patterns.creational.abstractfactory.Desconto;
+
+import br.com.cleonildo.Desconto;
 
 import java.math.BigDecimal;
 

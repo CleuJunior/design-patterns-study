@@ -5,6 +5,7 @@
   <artifactId>patterns</artifactId>
   <packaging>pom</packaging>
   <modules>
+    <module>abstractfactory</module>
     <module>adapter</module>
     <module>builder</module>
     <module>chainofresponsibility</module>

@@ -1,6 +1,6 @@
-package com.br.study.patterns.creational.abstractfactory.caixa;
+package br.com.cleonildo.caixa;
 
-import com.br.study.patterns.creational.abstractfactory.Juros;
+import br.com.cleonildo.Juros;
 
 import java.math.BigDecimal;
 

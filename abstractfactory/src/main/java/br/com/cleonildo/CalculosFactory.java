@@ -1,4 +1,4 @@
-package com.br.study.patterns.creational.abstractfactory;
+package br.com.cleonildo;
 
 public interface CalculosFactory {
     Juros criarJuros();
